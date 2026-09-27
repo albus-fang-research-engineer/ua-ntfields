@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+.env
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/
+weights/
+
+# Experiment outputs
+runs/
+logs/
+wandb/
+outputs/
+lightning_logs/
+*.tfevents.*
+
+# Data (generated samples, large meshes)
+data/
+datasets/
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Notebooks / IDE / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store

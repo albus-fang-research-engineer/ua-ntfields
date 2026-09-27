@@ -1,0 +1,11 @@
+__pycache__
+torch_kdtree
+Evaluations
+Experiments
+ros2bag
+B.npy
+normal.npy
+speed.npy
+sampled_points.npy
+unused/
+*.npy

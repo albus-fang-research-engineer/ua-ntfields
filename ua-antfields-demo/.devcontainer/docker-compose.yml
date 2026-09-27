@@ -1,0 +1,17 @@
+services:
+  antfields:
+    # image: antfields:demo
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /path/to/this/folder:/antfields
+    # gpus: all
+    runtime: nvidia
+    command: /bin/bash

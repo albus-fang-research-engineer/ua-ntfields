@@ -1,0 +1,11 @@
+*.npy
+*.pyc
+Experiments/
+debug/
+lidar_points/
+known_bugs.md
+venv/
+*.png
+blender_docker/
+*.npz
+*.pt
