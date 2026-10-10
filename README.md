@@ -1,3 +1,5 @@
+# Uncertainty-Aware Neural Time Fields for Safe Online Motion Planning in Unknown Environments
+
 ## Reproducing Paper Results
 
 The repository contains the scripts, configurations, and data needed to reproduce the quantitative results reported in the paper.
